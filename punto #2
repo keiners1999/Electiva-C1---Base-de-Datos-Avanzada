@@ -1,0 +1,8 @@
+a = float(input("por favor darle valor 'a' ==> "))
+b = float(input("por favor darle valor 'b' ==> "))
+c = (a**2)+(b**2)
+
+if c == 0:
+    print("el resultado de su ecuacion es => 0")
+else:
+    print(f"el resultado de su ecuacion es: {c**(1/3)}")
