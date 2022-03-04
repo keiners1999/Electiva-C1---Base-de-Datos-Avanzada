@@ -5,5 +5,6 @@ def Triangulo():
     area = (base*altura)/2
 
     input(f"El area de su triangulo es==> {area:.0f} ")
+print(Triangulo())
 
 
